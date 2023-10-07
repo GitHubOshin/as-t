@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "dependencies": {
+    "cli": "^1.0.1",
+    "global": "4.4.0",
+    "lerna": "7.3.0"
+  },
+  "scripts": {
+    "start": "lerna run start --parallel"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  }
+}
